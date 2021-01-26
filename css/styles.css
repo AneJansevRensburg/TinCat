@@ -1,0 +1,225 @@
+/* Body-items */
+
+body {
+    font-family: 'Ubuntu-Regular', sans-serif;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+} 
+h2{
+    font-family: 'Ubuntu-Bold', sans-serif;
+    font-size: 45px;
+    line-height: 1.2;
+}  
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid {
+    padding: 2% 15%;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 2.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size:1.2rem;
+    font-weight: lighter;
+}
+
+/* Title */
+
+#title {
+    color: white;   
+    background-color: #ff4c68;
+}
+.title-image {
+    position: absolute;
+    margin-left: 100px;
+    transform: rotate(15deg);
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Features */
+
+#features {
+    position: relative;
+    background-color: white;
+    padding: 2% 10%;
+}
+.feature-box {
+    text-align: center;
+    padding: 2%;
+}
+.features-icon{
+    color: #ffa5a5;
+    font-size:40px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    padding-bottom: 4%;
+}
+.fa-check-circle:hover{
+    color: greenyellow;
+    font-size: 70px;
+    
+}
+.fa-bullseye:hover{
+    color: red;
+    font-size: 70px;
+}
+.fa-heart:hover{
+    color: #e6739f;
+    font-size: 70px;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    color:#fff;
+    text-align: center;
+    background-color: #ffa5a5;
+}
+.testimonial-image {
+    width: 130px;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 7% 27%;
+}
+
+
+/* Press */
+
+#press {
+    text-align: center;
+    background-color: #ffa5a5;
+    padding-bottom: 2%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px;
+}
+
+
+/* Pricing */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 0;
+}
+.pricing-column {
+    padding: 3% 2%;
+}
+.card-header {
+    padding-bottom: 0;
+}
+
+
+/* CTA */
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    margin-top: 50px;
+    padding: 7% 25% 2% 25%;
+}
+.cta-text {
+    color: white;
+    text-align: center;
+    font-size: 2.7rem;
+    line-height: 1.5;
+    padding-bottom: 5%;
+}
+.cta-download-button{
+    margin: 5% 5% 5% 0;
+}
+
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 2% 15% 0 15%;
+}
+.footer-text{
+    color: #393e46;
+    font-size: 15px;
+    padding: 1%;
+}
+
+.social-icons {
+    padding: 15px;
+}
+
+.social-icons:hover {
+    color: #393e46;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1100px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        margin-left: 0;
+    }
+    .navbar-collapse{
+        text-align: left;
+    }
+    .carousel-item {
+        padding: 7% 15% 2% 15%;
+    }
+}
+
+@media (max-width: 1000px) {
+    #cta {
+        padding: 5% 12% 2%;
+    }
+    .feature-box {
+        padding-top: 5%;
+    }
+}
+
+@media (max-width: 650px) {
+    #cta {
+        padding: 3% 5%;
+    }
+    .cta-text {
+        padding: 2% 0 3% 0;
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 550px) {
+    h1 {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+}
+
+
